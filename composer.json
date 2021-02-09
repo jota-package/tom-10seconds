@@ -1,0 +1,16 @@
+{
+    "name": "juan/tom-10seconds",
+    "description": "Sistema de respuestas de Tom",
+    "type": "library",
+    "license": "(ISC) SEE LICENSE IN LICENSE.md",
+    "authors": [
+        {
+            "name": "Juan Basilio",
+            "email": "juan.basilio@waposat.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Tom\\": "src/"}
+    },
+    "require": {}
+}
