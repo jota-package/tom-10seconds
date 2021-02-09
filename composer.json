@@ -2,7 +2,7 @@
     "name": "jota-package/tom-10seconds",
     "description": "Sistema de respuestas de Tom",
     "type": "library",
-    "license": "ISC",
+    "license": "propietary",
     "authors": [
         {
             "name": "Juan Basilio",
