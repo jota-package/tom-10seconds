@@ -10,7 +10,10 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Tom\\": "src/"}
+        "psr-4": {
+            "Tom\\": "src/",
+            "Lucy\\": "src/"
+        }
     },
     "require": {}
 }
