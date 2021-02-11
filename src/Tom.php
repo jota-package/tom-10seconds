@@ -2,7 +2,7 @@
 
 namespace Tom;
 
-Trait Tom {
+trait Tom {
 	static public $respuesta = "Hola, soy Tom";
 
 	static public function responder($mensaje = ""){
