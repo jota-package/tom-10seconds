@@ -11,8 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tom\\": "src/",
-            "Lucy\\": "src/"
+            "Fedatario\\": "src/"
         }
     },
     "require": {}

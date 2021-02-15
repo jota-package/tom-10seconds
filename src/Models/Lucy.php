@@ -1,9 +1,10 @@
 <?php 
 
-namespace Lucy;
+namespace Fedatario\Models;
+use App;
 
-trait Lucy {
-	static public $respuesta = "No hay nada como el primer beso.";
+Trait Lucy {
+	static public $respuesta = "No hay nada como el primer beso.\n";
 
 	static public function responder($mensaje = ""){
 		return self::$respuesta;
@@ -18,6 +19,6 @@ trait Lucy {
      */
     public function ejecucion_limpia(Request $request){
     	return App\User::persona_lista();
-        // return self::responder("hola");
+    	//return self::responder("hola");
     }
 }

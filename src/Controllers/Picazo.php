@@ -1,9 +1,9 @@
 <?php 
 
-namespace Tom;
+namespace Fedatario\Controllers;
 
-trait Tom {
-	static public $respuesta = "Hola, soy Tom";
+Trait Picazo {
+	static public $respuesta = "No se quien soy\n";
 
 	static public function responder($mensaje = ""){
 		return self::$respuesta;
